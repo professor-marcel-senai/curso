@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 - Imagens e Tabelas</title>
+</head>
+<body bgcolor="#a67633" text="#ffffff">
+    <h1>Trabalhando com imagens e Tabelas</h1>
+    <h2>Imagens</h2>
+    <!-- 
+        <img src=""     -> caminho da imagem
+             width=""   -> largura da imagem (recomendado usar no CSS)
+             height=""  -> altura da imagem (recomendado usar no CSS)
+             alt=""     -> texto alternativo quando a imagem não carregar
+             title=""   -> texto em formato de legenda para quando posiciona o mouse
+
+    -->
+    <img src="imagens/logo_senai.png" width="300" height="180" alt="Logo do Senai" title="Logo da escola SENAI de Jandira">
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nesciunt rerum impedit porro libero quo quas at magni. Numquam magni in debitis fuga porro nobis earum reprehenderit, similique iure fugit!
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis impedit consequatur in ratione iste soluta libero a tenetur possimus sequi quaerat obcaecati eligendi amet, enim quibusdam est officia ex omnis?
+    </p>
+
+    <h2>Trabalhando com tabela</h2>
+    <table width="500" height="500" border="1" align="center" bgcolor="#000000"> <!-- Inicia a tabela -->
+        <tr height="50"> <!-- -Linha 0 - para colocar o titulo -->
+            <!-- Mesclando duas colunas em apenas uma-->
+            <td align="center" colspan="2" bgcolor="#ddd000">
+                Titulo Principal
+            </td>
+           
+        </tr>
+        <tr height="225"> <!-- cria a Linha 1 da tabela -->
+            <td width="250"> <!-- Cria uma celula que representa a coluna 01-->
+                <img src="imagens/foto_escola.jpg" width="200" height="150">
+            </td>
+            <td width="250"> <!-- Cria uma celula que representa a coluna 02-->
+                <h3>Titulo</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere debitis voluptatibus accusantium. Optio similique mollitia exercitationem doloremque architecto consequatur reprehenderit ullam earum pariatur officiis nobis labore, officia illum. Dignissimos, nisi.
+                </p>
+            </td>
+        </tr>
+        <tr height="225"> <!--Linha 02-->
+            <td width="250"> <!-- Coluna 01-->
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sunt illo vitae fuga consequuntur maiores consequatur fugiat ut praesentium minima! Qui accusamus, quis recusandae sequi quas nulla repellat delectus pariatur.
+                
+                </p>
+            </td>
+            <td width="250"> <!-- Coluna 02-->
+                <img src="imagens/foto_escola.jpg" width="200" height="150">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+h2{
+    font-family: arial;
+    color: rgb(17, 188, 5);
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    font-family: verdana;
+    font-size: 1.2em;
+    color: rgb(241, 113, 8);
+    text-align: center;
+}

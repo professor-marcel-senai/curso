@@ -1,0 +1,104 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.titulo{
+    /* Altera o tipo da fonte, podendo ter diversas opções */
+    font-family: Arial, Impact, 'Times New Roman';
+    /* Altera o tamanho da fonte (px ou em) */
+    font-size: 2em;
+    /* Coloca o Negrito */
+    font-weight: bold;
+    /* Coloca o texto em itálio ou obliquo */
+    font-style: oblique;
+    /* Permite colocar ou tirar sublinhado (linhas) 
+        overline (linha acima)
+        line-through (linha riscada)
+        underline (linha abaixo)
+        none (retirar o sublinhado)
+    */
+    text-decoration: underline;
+    letter-spacing: 8px; /*Espaçamento entre letras*/
+    word-spacing: 15px; /*Espaçamento entre palavras*/
+    color: #d82e0c; /*Cor da fonte*/
+    text-align: center; /*Alinhamento do texto (left, center, right e justify)*/
+}
+
+.subtitulo{
+    font-family: Impact, Arial;
+    font-size: 1.8em;
+    color: #83b2e8;
+    letter-spacing: 5px;
+}
+
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5; /*Espaçamento entre linhas*/
+
+    /* Espaçamento externo do elemento (distanciar os elementos)
+            margin: 20px;
+            margin-left
+            margin-top
+            margin-right
+            margin-bottom
+    
+    */
+    margin-bottom: 4em;
+
+    /*bordas em css
+        Tipos de bordas:border: 
+        solid
+        dashed
+        dotted
+        inset
+        outset
+        ridge
+        double    
+    */
+    /* border: solid 10px #000000; */
+    border-left: solid 5px #d82e0c;
+    border-top: dashed 3px #03ac17;
+    border-right: solid 5px #0429ad;
+    border-bottom: double 5px #000000;
+
+    background-color: antiquewhite;
+
+    /*Espaçamento interno no elemento
+        padding
+        padding-left
+        padding-top
+        padding-right
+        padding-bottom
+    
+    */
+    padding: 20px;
+    padding-left: 50px;
+    color: #000000;
+}
+
+.texto::first-letter{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #d82e0c;
+}
+
+.texto::first-line{
+    font-style: italic;
+}
+
+.texto::selection{
+    color: #03ac17;
+    background-color: #000000;/*Cor de fundo*/
+}
+
+
+.palavras-destaque{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #0429ad;
+}

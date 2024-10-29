@@ -1,0 +1,150 @@
+/* Seletor universal, pois aplica a formatação para todos os elementos*/
+*{
+    /*Fixa o tamanho do elemento de forma que não sofra alteração com o padding*/
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%; /* Largura */
+    height: 200px; /* Altura */
+    background-color: #000000;
+}
+
+main{
+    width: 100%;
+     /*Configuração para a caixa crescer conforme o conteúdo*/
+     min-height: 1000px;
+     height: auto;
+     overflow: hidden;
+     /*  */
+    /* background-color: beige; */
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+}
+
+#produtos{
+    width: 1200px;
+    /*Configuração para a caixa crescer conforme o conteúdo*/
+    min-height: 1000px; /*Altura minima da caixa*/
+    height: auto; /*Altura automatica*/
+    overflow: hidden; /*Permite desabilitar a barra de rolagem*/
+    /*  */
+    border: solid 1px #000000;
+    /* Centraliza um objeto */
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.card-produto{
+    width: 350px;
+    height: 450px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 20px;   
+    margin-bottom: 20px;
+    /*Permite colocar efeito 3D na caixa*/
+    box-shadow: 10px 15px 20px rgb(154, 152, 152);
+}
+
+.card-produto h2{
+    width: 100%;
+    height: 80px;
+    /* background-color: cadetblue; */
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card-produto figure{
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.card-produto figure img{
+    width: inherit; /*herda o valor do elemento pai*/
+    height: inherit; /*herda o valor do elemento pai*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-produto p{
+    width: 100%;
+    height: 100px;
+    /* background-color: beige; */
+    font-family: verdana;
+    font-size: 0.9em;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.produto-preco-old{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: arial;
+    text-decoration: line-through; /*Risca o preço antigo*/
+    font-size: 0.8em;
+    color: #bab7b6;
+    text-align: right;
+    /* background-color: aquamarine; */
+}
+
+.produto-preco{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-family: arial;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.1em;
+    /* background-color: bisque; */
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.comprar{
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #05520b;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 30px; /*Permite arredondar as bordas*/
+}
+
+.comprar:hover{
+    cursor: pointer;
+    background-color: #000000;
+    transition: 1s; /*aplica um timer de 1s para realizar a formatação*/
+    /* width: 110px;
+    height: 35px; */
+    transform: scale(1.2); /*Permite aplicar zoom 
+    */
+}
+
+.card-produto:hover{
+    transform: scale(1.1); /*Permite aplicar zoom */
+    transition: 1s;
+}

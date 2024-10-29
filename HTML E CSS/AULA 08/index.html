@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 - Criação de Cards</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <!-- Representa a criação da área do menu -->
+        <nav id="menu">
+            <ul class="menu-item">
+                <li>A Loja</li>
+                <li>
+                    Produtos
+                    <!-- Submenu de Produtos -->
+                    <ul id="teste"  class="submenu">
+                        <li>Informática</li>
+                        <li>Eletrônicos</li>
+                        <li>Lazer</li>
+                        <li>Roupas</li>
+                        <li>Automotivo</li>
+                        <li>Casa</li>
+                    </ul>
+                </li>
+                <li>Pagamento</li>
+                <li>Contatos</li>
+                <li>Devoluções</li>
+            </ul>
+        </nav>
+        <div id="slider">
+            <div id="cadastro">
+                <h2>Cadastre-se</h2>
+                <form>
+                    <label>Nome:</label>
+                    <input type="text" name="txt-nome" placeholder="Digite o nome">
+                    
+                    <label>E-mail:</label>
+                    <input type="email" name="txt-email"  placeholder="seumail@email.com">
+                    
+                    <label>Sexo:</label>
+                    <input type="radio" name="rdo-sexo" value="F">Feminino
+                    <input type="radio" name="rdo-sexo" value="M">Masculino
+                    
+                    <label>Idioma:</label>
+                    
+                    <input type="checkbox" name="chk-idiomas-port" value="portugues">Português
+                    <input type="checkbox" name="chk-idioma-ingles" value="ingles"> Inglês
+                    <input type="checkbox" name="chk-idioma-espanhol" value="espanhol">Espanhol 
+                    
+                    <label>UF:</label>
+                    <select name="slt-uf">
+                        <option value="SP">SP - São Paulo</option>
+                        <option value="RJ">RJ - Rio de Janeiro</option>
+                        <option value="AC">AC - Acre</option>
+                    </select>
+                    <br>
+                    <input type="button" name="btn-salvar" value="Salvar">
+                    <input type="reset"  name="btn-limpar" value="Limpar">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo do Site -->
+    <main>
+        <section id="produtos">
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>            <div class="card-produto">
+                <h2>Nome Produto</h2>
+                <figure>
+                    <img src="imagens/teclado.jpg" alt="Produto Tecnologia">
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste expedita, illo voluptates.
+                </p>
+                <span class="produto-preco-old">R$ 80.99</span>
+                <span class="produto-preco"> R$ 70.00</span>
+                <div class="comprar">Comprar</div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- Rodapé do Site -->
+    <footer>
+
+    </footer>
+</body>
+</html>
